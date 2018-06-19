@@ -1,4 +1,7 @@
 # Youtube Clone
-This sample project was built using React.
 
-It makes an API call to the the Youtube API and then dynamically renders search results based on what users type.
+This project demonstrates some of the functionality of Youtube.
+
+As users type into the search bar, an API call is made to the Youtube API, which returns an array of videos for the user to view, play, and search again.
+
+This sample project was built using React.js, Webpack, and Bootstrap. It is fully responsive.
