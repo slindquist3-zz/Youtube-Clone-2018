@@ -83,6 +83,10 @@
 
 	var _video_detail2 = _interopRequireDefault(_video_detail);
 
+	var _title = __webpack_require__(180);
+
+	var _title2 = _interopRequireDefault(_title);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -130,11 +134,12 @@
 
 	      var videoSearch = _lodash2.default.debounce(function (term) {
 	        _this3.videoSearch(term);
-	      }, 300);
+	      }, 100);
 
 	      return _react2.default.createElement(
 	        'div',
 	        null,
+	        _react2.default.createElement(_title2.default, null),
 	        _react2.default.createElement(_search_bar2.default, { onSearchTermChange: videoSearch }),
 	        _react2.default.createElement(_video_detail2.default, { video: this.state.selectedVideo }),
 	        _react2.default.createElement(_video_list2.default, {
@@ -33210,6 +33215,7 @@
 	        'div',
 	        { className: 'search-bar' },
 	        _react2.default.createElement('input', {
+	          placeholder: 'Your Search Here',
 	          value: this.state.term,
 	          onChange: function onChange(event) {
 	            return _this2.onInputChange(event.target.value);
@@ -33378,6 +33384,37 @@
 	};
 
 	exports.default = VideoDetail;
+
+/***/ }),
+/* 180 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(4);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Title = function Title() {
+
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "title" },
+	    _react2.default.createElement(
+	      "h1",
+	      null,
+	      "Youtube Clone"
+	    )
+	  );
+	};
+
+	exports.default = Title;
 
 /***/ })
 /******/ ]);
