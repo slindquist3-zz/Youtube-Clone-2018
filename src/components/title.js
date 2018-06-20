@@ -4,7 +4,7 @@ const Title = () => {
 
   return (
     <div className="title">
-      <h1>Youtube Clone</h1>
+      <h1>YouTube Clone</h1>
     </div>
   )
 };

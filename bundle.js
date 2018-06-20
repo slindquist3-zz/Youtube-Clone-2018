@@ -33413,7 +33413,7 @@
 	    _react2.default.createElement(
 	      "h1",
 	      null,
-	      "Youtube Clone"
+	      "YouTube Clone"
 	    )
 	  );
 	};
