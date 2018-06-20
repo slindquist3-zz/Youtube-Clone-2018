@@ -24,6 +24,8 @@ div.video-detail {
   margin-top: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .list-group-item {
