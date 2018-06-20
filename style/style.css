@@ -12,14 +12,8 @@
   width: 75%;
 }
 
-.video-item image {
+.video-item img {
   max-width: 64px;
-}
-
-.video-detail {
-  width: 70%;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .video-detail .details {
@@ -29,15 +23,8 @@
   border-radius: 4px;
 }
 
-ul.list-group {
-  display: inline-block;
-  position: absolute;
-  width: 350px;
-}
-
-li.list-group-item {
+.list-group-item {
   cursor: pointer;
-  margin-bottom: 5px;
 }
 
 .list-group-item:hover {

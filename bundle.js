@@ -33213,13 +33213,17 @@
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'search-bar' },
-	        _react2.default.createElement('input', {
-	          placeholder: 'Your Search Here',
-	          value: this.state.term,
-	          onChange: function onChange(event) {
-	            return _this2.onInputChange(event.target.value);
-	          } })
+	        { className: 'row' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'search-bar' },
+	          _react2.default.createElement('input', {
+	            placeholder: 'Your Search Here',
+	            value: this.state.term,
+	            onChange: function onChange(event) {
+	              return _this2.onInputChange(event.target.value);
+	            } })
+	        )
 	      );
 	    }
 	  }, {
@@ -33360,7 +33364,7 @@
 
 	  return _react2.default.createElement(
 	    "div",
-	    { className: "video-detail col-8" },
+	    { className: "video-detail col-md-8" },
 	    _react2.default.createElement(
 	      "div",
 	      { className: "embed-responsive embed-responsive-16by9" },
